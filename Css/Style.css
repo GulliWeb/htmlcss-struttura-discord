@@ -1,7 +1,29 @@
 /* Utils */
-
 body{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.container{
+    min-height: 500px;
+    background-color: blue
+}
+
+/* Header */
+.header-top-container{
+   background-color: lightblue;
+   height: 75px;
+   display: flex;
+}
+
+.header-top{
+   background-color: darkgoldenrod;
+   margin: auto;
+   max-height: 75px;
+   display: flex;
+   flex-basis: 75%;
+   gap: 10px;
+  
+ 
 }
